@@ -10,10 +10,14 @@
         <div class="col-sm-8">
             <blockquote>
                 <?php
+		    $name="";
+		    while($names=$theme_name->fetch_assoc())
+		    {
+			$name=$names['theme_name'];
+		    }
                     $sum=0;
                     while($fetch=$sums->fetch_assoc())
                     {
-                        $name=$fetch['theme_name'];
                         $sum++;
                     }
                     echo "<p>{$name}</p>";
