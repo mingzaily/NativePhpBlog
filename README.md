@@ -8,4 +8,4 @@
 2. 安装服务器
 
 ## 效果
-访问[博客](www.mingzai.name/boke)
+访问[博客](https://www.mingzai.name/boke)
